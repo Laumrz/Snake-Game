@@ -23,6 +23,5 @@ public class Constants {
     public static int appleY; // Posición y de la manzana
     public static char direction = 'R'; // Dirección inicial
     public static boolean running = false; // Estado del juego
-    public static Timer timer; // Temporizador del juego
     public static Random random = new Random(); // Generador de números aleatorios
 }
