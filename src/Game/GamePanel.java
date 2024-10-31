@@ -80,7 +80,7 @@ public class GamePanel extends JPanel implements ActionListener {
     public void checkCollisions() {
         for (int i = Constants.bodyParts; i > 0; i--) {
             if (Constants.x[0] == Constants.x[i] && Constants.y[0] == Constants.y[i]) {
-                Constants.running = false; // Colisión con el cuerpo
+                Constants.running = false;
             }
         }
 
