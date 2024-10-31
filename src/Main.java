@@ -1,3 +1,5 @@
+import Game.GamePanel;
+
 import javax.swing.JFrame;
 
 public class Main {
@@ -13,3 +15,4 @@ public class Main {
         frame.setLocationRelativeTo(null);
     }
 }
+
